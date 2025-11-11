@@ -1,0 +1,188 @@
+[00:00:02.212] Server  LOG      ✓ Ready in 1517ms
+[00:00:09.228] Server  LOG      ○ Compiling / ...
+[00:00:15.454] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.456] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="/szaban/fr...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function PresidentialOffice} serverProvidedParams={{...}}>
+                      <PresidentialOffice params={Promise} searchParams={Promise}>
+                        <div className="presidenti...">
+                          <header>
+                          <nav>
+                          <main>
+                          <footer className="presidenti...">
+                            <p>
+                            <p>
++                             9:17:06 PM
+-                             9:17:05 PM
+                  ...
+                ...
+
+[00:00:17.775] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:00:18.041] Browser ERROR   Error fetching game state: {}
+[00:00:20.108] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:00:20.375] Browser ERROR   Error fetching game state: {}
+[00:00:27.800] Browser ERROR   Error fetching game state: {}
+[00:00:37.798] Browser ERROR   Error fetching game state: {}
+[00:00:47.810] Browser ERROR   Error fetching game state: {}
+[00:00:57.816] Browser ERROR   Error fetching game state: {}
+[00:01:03.277] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:01:04.471] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:01:06.471] Browser ERROR   Error fetching game state: {}
+[00:01:18.476] Browser ERROR   Error fetching game state: {}
+[00:01:28.477] Browser ERROR   Error fetching game state: {}
+[00:01:38.490] Browser ERROR   Error fetching game state: {}
+[00:01:48.472] Browser ERROR   Error fetching game state: {}
+[00:01:58.472] Browser ERROR   Error fetching game state: {}
+[00:02:56.005] Browser ERROR   Error fetching game state: {}
+[00:02:56.252] Browser ERROR   Error fetching game state: {}
+[00:03:02.142] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:03:02.406] Browser ERROR   unhandledRejection: TypeError: Failed to fetch
+[00:03:08.472] Browser ERROR   Error fetching game state: {}
+[00:03:18.475] Browser ERROR   Error fetching game state: {}
+[00:03:27.925] Browser ERROR   Error fetching game state: {}
+[00:03:38.470] Browser ERROR   Error fetching game state: {}
+[00:03:48.474] Browser ERROR   Error fetching game state: {}
+[00:03:58.471] Browser ERROR   Error fetching game state: {}
+[00:04:08.473] Browser ERROR   Error fetching game state: {}
+[00:04:18.470] Browser ERROR   Error fetching game state: {}
+[00:04:28.477] Browser ERROR   Error fetching game state: {}
+[00:05:07.477] Browser ERROR   Error fetching game state: {}
+[00:06:07.479] Browser ERROR   Error fetching game state: {}
+[00:07:07.479] Browser ERROR   Error fetching game state: {}
+[00:08:07.479] Browser ERROR   Error fetching game state: {}
+[00:09:07.470] Browser ERROR   Error fetching game state: {}
+[00:10:07.485] Browser ERROR   Error fetching game state: {}
+[00:11:07.478] Browser ERROR   Error fetching game state: {}
+[00:11:30.320] Server  LOG      ✓ Compiled in 86ms
+[00:11:34.081] Server  LOG      ✓ Compiled in 79ms
+[00:12:07.473] Browser ERROR   Error fetching game state: {}
+[00:12:54.084] Server  LOG      ✓ Compiled in 54ms
+[00:13:07.472] Browser ERROR   Error fetching game state: {}
+[00:14:06.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:27.116] Server  LOG      ✓ Compiled in 88ms
+[00:42:14.648] Server  LOG      ✓ Compiled in 75ms
+[00:42:19.614] Server  LOG      ✓ Compiled in 117ms
+[00:42:35.220] Server  LOG      ✓ Compiled in 112ms
+[00:43:32.048] Server  LOG      ✓ Compiled in 83ms
+[00:43:41.871] Server  LOG      ✓ Compiled in 114ms
+[00:43:46.689] Server  LOG      ✓ Compiled in 94ms
+[00:43:52.966] Server  LOG      ✓ Compiled in 90ms
+[00:43:56.984] Server  LOG      ✓ Compiled in 107ms
+[00:44:08.057] Server  LOG      ✓ Compiled in 110ms
+[00:45:09.952] Server  LOG      ✓ Compiled in 82ms
+[00:45:18.298] Server  LOG      ✓ Compiled in 74ms
+[00:47:03.350] Server  LOG      ✓ Compiled in 68ms
+[00:52:52.073] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:53:14.831] Browser ERROR   Error executing intelligence operation: {}
+[00:53:15.274] Browser ERROR   Error executing intelligence operation: {}
+[00:53:15.275] Browser ERROR   Error executing intelligence operation: {}
+[00:53:15.275] Browser ERROR   Error executing intelligence operation: {}
+[00:53:59.016] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:45.712] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:53.727] Browser ERROR   Error executing intelligence operation: {}
+[00:57:14.968] Browser ERROR   Error executing intelligence operation: {}
+[00:57:18.827] Browser ERROR   Error executing intelligence operation: {}
+[00:58:04.126] Browser ERROR   Error executing military action: {}
+[00:58:20.377] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:51.173] Browser ERROR   Error executing military action: {}
+[01:00:54.832] Browser ERROR   Error executing military action: {}
+[01:01:10.110] Browser ERROR   Error executing diplomacy: {}
+[01:01:12.099] Browser ERROR   Error executing diplomacy: {}
+[01:01:27.950] Browser ERROR   Error executing internal action: {}
+[01:01:51.518] Browser ERROR   Error executing intelligence operation: {}
+[01:03:46.863] Server  LOG      ✓ Compiled in 77ms
+[01:04:35.358] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `select`.  It was passed a child from EnhancedIntelligence.
+[01:04:46.524] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:46.981] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `PresidentialDashboard`. 
+[01:04:46.981] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `select`.  It was passed a child from PresidentialDashboard.
+[01:04:49.395] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `MilitaryStrategy`. 
+[01:05:05.476] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `select`.  It was passed a child from EnhancedIntelligence.
+[01:05:11.804] Browser LOG     Consequences: {"military_boost":112,"public_opinion_boost":3}
+[01:06:54.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:06:54.323] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `PresidentialDashboard`. 
+[01:06:54.324] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `select`.  It was passed a child from PresidentialDashboard.
+[01:06:56.242] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `EconomicWarfare`. 
+[01:07:19.942] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:20.205] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `PresidentialDashboard`. 
+[01:07:20.205] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `select`.  It was passed a child from PresidentialDashboard.
+[01:08:00.815] Browser ERROR   Each child in a list should have a unique "key" prop.%s%s See https://react.dev/link/warning-keys for more information. 
+
+Check the render method of `DiplomaticRelations`. 
+[01:08:18.814] Browser LOG     Consequences: {"economic_damage":926075041216.0184}
+[01:09:03.527] Server  LOG      ✓ Compiled in 159ms
+[01:09:18.972] Server  LOG      ✓ Compiled in 79ms
+[01:09:57.568] Server  LOG      ✓ Compiled in 61ms
+[01:09:59.241] Server  LOG      ✓ Compiled in 70ms
+[01:10:11.421] Server  LOG      ✓ Compiled in 69ms
+[01:10:26.341] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sort')
+[01:10:29.748] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sort')
+[01:10:30.103] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:10:30.284] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sort')
+[01:11:26.682] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:11:26.685] Server  LOG      ✓ Compiled in 69ms
+[01:11:26.979] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sort')
+[01:11:27.382] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:28.478] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sort')
+[01:15:56.420] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'sort')
+[01:15:56.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:57.059] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'sort')
+[01:17:21.218] Server  LOG      ✓ Compiled in 45ms
+[01:17:21.237] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:17:22.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:17:37.497] Server  LOG      ✓ Compiled in 68ms
+[01:18:22.434] Server  LOG      ✓ Compiled in 86ms
+[01:18:39.772] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:34.231] Server  LOG      ✓ Compiled in 44ms
+[01:34:46.213] Server  LOG      ✓ Compiled in 28ms
+[01:35:06.899] Server  LOG      ✓ Compiled in 34ms
+[01:35:30.249] Server  LOG      ✓ Compiled in 53ms
+[01:35:46.850] Server  LOG      ✓ Compiled in 25ms
+[01:36:06.735] Server  LOG      ✓ Compiled in 51ms
+[01:36:21.911] Server  LOG      ✓ Compiled in 41ms
+[01:36:45.159] Server  LOG      ✓ Compiled in 38ms
+[01:37:04.760] Server  LOG      ✓ Compiled in 51ms
+[01:37:29.507] Server  LOG      ✓ Compiled in 26ms
+[01:37:47.324] Server  LOG      ✓ Compiled in 84ms
+[01:37:58.972] Server  LOG      ✓ Compiled in 34ms
+[01:38:06.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:06.231] Browser LOG     Consequences: {"economic_damage":1234143164426.939}
